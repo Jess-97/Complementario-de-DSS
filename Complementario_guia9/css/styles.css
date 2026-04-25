@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(135deg,#0d1b2a,#1b263b,#415a77);
+    color: #e0e1dd;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* TITULO */
+h1{
+    text-align:center;
+    color: #e85d04;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* CARD */
+.card{
+    background: rgba(0,0,0,0.4);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/* BOTON AGREGAR (NARANJA) */
+.btn-add{
+    background: #e85d04;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-add:hover{
+    background: #ff7b00;
+    transform: scale(1.1);
+}
+
+/* EDITAR (AZUL) */
+.btn-edit{
+    background: #1b263b;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.btn-edit:hover{
+    background: #415a77;
+    transform: scale(1.1);
+}
+
+/* ELIMINAR (ROJO) */
+.btn-delete{
+    background: #9d0208;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.btn-delete:hover{
+    background: #d00000;
+    transform: scale(1.1);
+}
+
+/* TABLA */
+.table{
+    color: #e0e1dd;
+}
+
+.table thead{
+    background: #1b263b;
+}
+
+/* BADGES */
+.badge-activo{
+    background: #588157;
+    padding:5px 10px;
+    border-radius:10px;
+}
+
+.badge-inactivo{
+    background: #6c757d;
+    padding:5px 10px;
+    border-radius:10px;
+}

@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(135deg,#001219,#005f73,#0a9396);
+    color: #e9d8a6;
+    font-family: 'Segoe UI', sans-serif;
+    text-align:center;
+}
+
+/* CONTENEDOR */
+.form-card{
+    margin: 80px auto;
+    width: 350px;
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.7);
+}
+
+/* TITULO */
+h2{
+    color: #ee9b00;
+    margin-bottom:20px;
+}
+
+/* INPUTS */
+input, select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+/* BOTON GUARDAR */
+.btn-save{
+    background: #ee9b00;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn-save:hover{
+    background: #ffd166;
+}
+
+/* BOTON EDITAR */
+.btn-update{
+    background: #0a9396;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.btn-update:hover{
+    background: #94d2bd;
+}
+
+/* BOTON ELIMINAR */
+.btn-danger{
+    background: #ae2012;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.btn-danger:hover{
+    background: #bb3e03;
+}
